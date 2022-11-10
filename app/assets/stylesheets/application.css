@@ -31,6 +31,13 @@ h1,h2 {
   margin: 15px 0;
 }
 
+p,ul {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
 /*indexのリスト部分レイアウト*/
 th {
   padding-bottom: 5px;
@@ -42,15 +49,43 @@ td {
   padding-right: 5px;
 }
 
-/* topページのレイアウト */
-#top_h1 {
-  font-size: 24px;
-  margin: 30px 12px;
+/*New book,Edit bookのレイアウト*/
+label {
+  display: block;
 }
 
-.top_p1 {
-  font-size: 13px;
-  line-height: 18px;
-  margin: 33px;
+.edit_box {
+  padding-bottom: 10px;
 }
 
+/*フラッシュメッセージの色変更*/
+#notice {
+  color: #0000CC;
+}
+
+/*エラーメッセージのレイアウト*/
+.error_explain {
+  width: 450px;
+  border: 2px solid #CC0000;
+  padding: 6px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #F0F0F0;
+}
+
+
+.error_explain h2 {
+  text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #CC0000;
+    color: #FFFFFF;
+}
+
+.error_explain li {
+  font-size: 12px;
+  list-style: inside;
+}
