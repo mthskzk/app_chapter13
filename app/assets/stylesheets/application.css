@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-/*全体のbodyのレイアウトを整理*/
+/*全体共通のレイアウトを整理*/
 body {
   margin: 33px;
   font-size: 13px;
@@ -58,9 +58,11 @@ label {
   padding-bottom: 10px;
 }
 
-/*フラッシュメッセージの色変更*/
+/*フラッシュメッセージのレイアウト*/
 #notice {
-  color: #0000CC;
+  background-color: #0000CC;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 /*エラーメッセージのレイアウト*/
@@ -88,4 +90,14 @@ label {
 .error_explain li {
   font-size: 12px;
   list-style: inside;
+}
+
+.error_edit_box {
+  background-color: #CC0000;
+  padding: 2px;
+  display: table;
+}
+
+.error_edit_box label {
+  color: #FFFFFF;
 }
