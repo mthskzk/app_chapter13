@@ -20,3 +20,37 @@
   box-sizing: border-box;
 }
 
+/*全体のbodyのレイアウトを整理*/
+body {
+  margin: 33px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+h1,h2 {
+  margin: 15px 0;
+}
+
+/*indexのリスト部分レイアウト*/
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* topページのレイアウト */
+#top_h1 {
+  font-size: 24px;
+  margin: 30px 12px;
+}
+
+.top_p1 {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
